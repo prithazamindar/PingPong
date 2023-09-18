@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ping Pong Game</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="src/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="resources/img/favicon.ico"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <div class="panel reveal">
+      <div class="stat"></div>
+      <h1>Ping Pong Game</h1>
+      <span>
+        Modes:
+        <div class="tooltip">
+          a mode sharpens the head of computer. not fastens the game!
+        </div>
+      </span>
+      <input type="text" hidden />
+      <ul class="gameMode">
+        <li class="mode baby" data-number=".05">Baby</li>
+        <li class="mode easy" data-number=".08">Easy</li>
+        <li class="mode normal" data-number=".1">Normal</li>
+        <li class="mode hard" data-number=".2">Hard</li>
+        <li class="mode insane" data-number=".3">Insane</li>
+      </ul>
+      <button class="play">Play</button>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
